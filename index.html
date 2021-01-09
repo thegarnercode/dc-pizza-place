@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Real Pizza Place</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="./pizza-place.css">
+
+</head>
+<body>
+    <main>
+    <h1> <svg class="header" viewBox="0 0 425 200">
+      <path id="curve" 
+      fill="transparent"
+      d="M6,150C49.63,93,105.79,36.65,156.2,47.55,207.89,58.74,213,131.91,264,150c40.67,14.43,108.57-6.91,229-145" />  
+      <text x="25">
+        <textPath id="textPath" xlink:href="#curve">
+         WELCOME TO ROSE PIZZA PALACE
+        </textPath>
+      </text>
+    </svg> </h1>
+
+    <img  class="top-pizza"   src="https://media.giphy.com/media/4ayiIWaq2VULC/giphy.gif" />
+    <div>
+        
+        <p>The Best Pizza In The World </p>
+    </div>
+    <form>
+        <fieldset>
+            <legend>Checkout Information</legend>
+            <p>
+                <label for="first-name"> First Name</label>
+                <input name="first-name" type="text" id="first-name" />
+            </p>
+            <p>
+                <label for="last-name"> Last Name</label>
+                <input name="last-name" type="text" id="first-name" />
+            </p>
+            <p> 
+                <label for="address"> Home Address</label>
+                <input name="address" type="text" id="address" />
+            </p>
+            <p>
+                <label for="city">Your City</label>
+                <select id="city" name="city">
+                    <option value="atlanta">Atlanta</option>
+                    <option value="houston">Houston</option>
+                    <option value="las Vegas">Las Vegas</option>
+                    <option value="brooklyn">Brooklyn</option>
+                    </select>
+            </p>
+            <p>
+                <label for="state">Your State</label>
+                <select id="state" name="state">
+                <option value="georgia">Georgia</option> 
+                <option value="texas">Texas</option>
+                <option value="nevada">Nevada</option>
+                <option value="new york">New York</option>
+
+                </select>
+            </p>
+            <p>
+                <label for="zip-code"> Zipcode</label>
+                <input name="zip-code" type="text" id="zip-code" />
+                
+            </p>
+
+            <p>
+                <label for="phoneNum"> Phone Number</label>
+                <input name="phoneNum" type="text" id="phoneNum" />
+                
+            </p>
+            
+
+
+
+            <div>
+                <h3>Order 1</h3>
+                <p> Build Your Own Style Pizza </p>
+                  
+                <form>
+                    <input type="radio" id="Thin Crust" name="crust" value="Thin Crust">
+                    <label for="crust">Thin Crust</label><br>
+                    <input type="radio" id="New York Style" name="crust" value="New York Style">
+                    <label for="crust">New York Style Crust</label><br>
+                    <input type="radio" id="Deep Dish" name="crust" value="Deep Dish">
+                    <label for="crust">Deep Dish Crust</label>
+                  </form> 
+                  
+                  <p> Sauce </p>
+                  <p>
+                    <img class="pizza"  src="https://media.giphy.com/media/dGVaveDyKprNu/giphy.gif" />
+                  </p>
+
+                  <form>
+                    <input type="radio" id="regular sauce" name="sauce" value="regular sauce">
+                    <label for="sauce">Regular Sauce</label><br>
+                    <input type="radio" id="extra sauce" name="sauce" value="extra sauce">
+                    <label for="sauce">X-tra Sauce</label><br>
+                    <input type="radio" id="no sauce" name="sauce" value="no sauce">
+                    <label for="sauce">No Sauce</label>
+                  </form> 
+
+                  <p> Cheese </p>
+
+                  <p>
+                    <img class="pizza"  src="https://media.giphy.com/media/l1J9QiL9MMcPcEjPW/giphy.gif" />
+                  </p>
+
+                  <form>
+                    <input type="radio" id="regular cheese" name="cheese" value="regular cheese">
+                    <label for="cheese">Regular Cheese</label><br>
+                    <input type="radio" id="extra cheesy" name="cheese" value="extra cheesy">
+                    <label for="cheese">X-tra Cheesy</label><br>
+                    <input type="radio" id=" i dont want cheese " name="cheese" value="i dont want cheese">
+                    <label for="cheese">I dont want cheese </label>
+                    <input type="radio" id=" vegan cheese " name="cheese" value="vegan cheese">
+                    <label for="cheese">Vegan Cheese</label>
+                  </form> 
+
+                  <p> Toppings </p>
+
+                  <form>
+                    <input type="checkbox" id="topping1" name="topping1" value="pepperoni">
+                    <label for="topping1"> Pepperoni</label><br>
+                    <input type="checkbox" id="topping2" name="topping2" value="meatballs">
+                    <label for="topping2"> Meatballs</label><br>
+                    <input type="checkbox" id="topping3" name="topping3" value="mushrooms">
+                    <label for="topping3"> Mushrooms</label><br>
+                  </form> 
+
+                  <p> Drinks </p>
+
+                  <form>
+                    <input type="checkbox" id="drinks1" name="drinks1" value="sprite">
+                    <label for="drinks1"> Sprite</label><br>
+                    <input type="checkbox" id="drinks2" name="drinks2" value="coke">
+                    <label for="drinks2"> Coke</label><br>
+                    <input type="checkbox" id="drinks3" name="drinks3" value="bottled water">
+                    <label for="drinks3"> Bottled Water</label><br>
+                  </form> 
+
+                  <p> Desserts </p>
+
+                  <form>
+                    <input type="checkbox" id="desserts1" name="desserts1" value="cheesecake">
+                    <label for="desserts1"> Cheese Cake</label><br>
+                    <input type="checkbox" id="desserts2" name="desserts2" value="cinnamon-rolls">
+                    <label for="desserts2"> Cinnamon-Rolls</label><br>
+                    <input type="checkbox" id="desserts3" name="desserts3" value="fudge brownie">
+                    <label for="desserts3"> Fudge Brownie</label><br>
+                  </form> 
+
+                  <p>
+                    <label for="rewards-member">Rewards Member ?</label>
+                    <select id="rewards-member" name="remember-member">
+                    <option value="Yes">Yes</option> 
+                    <option value="No">No</option>
+                    </select>
+                   
+                </select>
+                </p>
+
+                <p>
+                    <h2>Any Special Instructions ?</h2>
+
+                    <form action="/action_page.php" id="special-instructions">
+                      Allergens: <input type="text" name="special-instructions">
+                    <input type="submit">
+                    </form>
+                    <br>
+                    <textarea rows="4" cols="50" name="comment" form="usrform">
+                      Enter Special Instructions Here...</textarea>
+                    </p>
+
+
+
+
+
+
+
+            </p>
+        </fieldset>
+     </form>
+</main>
+<script> src="./pizza-place.js"</script>
+</body>
+</html>

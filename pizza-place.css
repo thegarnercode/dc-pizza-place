@@ -1,3 +1,35 @@
-h1 {
-    color: black;
+body{
+    background-color: red;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+
 }
+
+
+    
+
+
+h2 {
+    color: rgb(27, 27, 240);
+    
+    
+}
+
+
+p {
+    font-size: larger;
+    font-weight: bolder;
+    color: white
+}
+
+form{
+    text-align: center;
+
+}
+
+.pizza { 
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
